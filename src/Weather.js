@@ -48,6 +48,8 @@ export default function Weather() {
             <img src={weather.icon} alt={weather.description} />
           </li>
         </ul>
+        <p>This project was coded by Faith and is <a href="https://github.com/faithndlovu/react-week4">open-sourced on GitHub</a> and hosted on <a href="https://lucky-tapioca-7e2bfb.netlify.app/">Netlify</a>
+        </p>
       </div>
     );
   } else {
